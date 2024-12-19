@@ -1,0 +1,338 @@
+models:
+  - name: model_8x8_kernel_3x3_max
+    backbone: "executable_code.model_network.model_8x8_backbone.image_8x8_kernel_3x3_backbone.Image_8x8_3x3_max"
+    directories_dir: "model_epochs_200/model_8x8_kernel_3x3_max"
+    model_path: "model.pth"
+    history_file: "training_history.csv"
+    num_epochs: 200
+    batch_size: 256
+    learning_rate: 0.001
+    input_size: [ 8, 8 ]
+    channels: 3
+    target_layers:
+      - "conv1"
+      - "conv2"
+      - "conv3"
+      - "conv4"
+
+  - name: model_8x8_kernel_3x3_avg
+    backbone: "executable_code.model_network.model_8x8_backbone.image_8x8_kernel_3x3_backbone.Image_8x8_3x3_avg"
+    directories_dir: "model_epochs_200/model_8x8_kernel_3x3_max"
+    model_path: "model.pth"
+    history_file: "training_history.csv"
+    num_epochs: 200
+    batch_size: 256
+    learning_rate: 0.001
+    input_size: [8, 8]
+    channels: 3
+    target_layers:
+      - "conv1"
+      - "conv2"
+      - "conv3"
+      - "conv4"
+
+
+  - name: model_8x8_kernel_5x5_max
+    backbone: "executable_code.model_network.model_8x8_backbone.image_8x8_kernel_5x5_backbone.Image_8x8_5x5_max"
+    directories_dir: "model_epochs_200/model_8x8_kernel_5x5_max"
+    model_path: "model.pth"
+    history_file: "training_history.csv"
+    num_epochs: 200
+    batch_size: 256
+    learning_rate: 0.001
+    input_size: [8, 8]
+    channels: 3
+    target_layers:
+      - "conv1"
+      - "conv2"
+      - "conv3"
+      - "conv4"
+
+
+  - name: model_8x8_kernel_5x5_avg
+    backbone: "executable_code.model_network.model_8x8_backbone.image_8x8_kernel_5x5_backbone.Image_8x8_5x5_avg"
+    directories_dir: "model_epochs_200/model_8x8_kernel_5x5_avg"
+    model_path: "model.pth"
+    history_file: "training_history.csv"
+    num_epochs: 200
+    batch_size: 256
+    learning_rate: 0.001
+    input_size: [8, 8]
+    channels: 3
+    target_layers:
+      - "conv1"
+      - "conv2"
+      - "conv3"
+      - "conv4"
+
+
+  - name: model_16x16_kernel_3x3_max
+    backbone: "executable_code.model_network.model_16x16_backbone.image_16x16_kernel_3x3_backbone.Image_16x16_3x3_max"
+    directories_dir: "model_epochs_200/model_16x16_kernel_3x3_max"
+    model_path: "model.pth"
+    history_file: "training_history.csv"
+    num_epochs: 200
+    batch_size: 256
+    learning_rate: 0.001
+    input_size: [16, 16]
+    channels: 3
+    target_layers:
+      - "conv1"
+      - "conv2"
+      - "conv3"
+      - "conv4"
+
+
+  - name: model_16x16_kernel_3x3_avg
+    backbone: "executable_code.model_network.model_16x16_backbone.image_16x16_kernel_3x3_backbone.Image_16x16_3x3_avg"
+    directories_dir: "model_epochs_200/model_16x16_kernel_3x3_avg"
+    model_path: "model.pth"
+    history_file: "training_history.csv"
+    num_epochs: 200
+    batch_size: 256
+    learning_rate: 0.001
+    input_size: [16, 16]
+    channels: 3
+    target_layers:
+      - "conv1"
+      - "conv2"
+      - "conv3"
+      - "conv4"
+
+
+  - name: model_16x16_kernel_5x5_max
+    backbone: "executable_code.model_network.model_16x16_backbone.image_16x16_kernel_5x5_backbone.Image_16x16_5x5_max"
+    directories_dir: "model_epochs_200/model_16x16_kernel_5x5_max"
+    model_path: "model.pth"
+    history_file: "training_history.csv"
+    num_epochs: 200
+    batch_size: 256
+    learning_rate: 0.001
+    input_size: [16, 16]
+    channels: 3
+    target_layers:
+      - "conv1"
+      - "conv2"
+      - "conv3"
+      - "conv4"
+
+
+  - name: model_16x16_kernel_5x5_avg
+    backbone: "executable_code.model_network.model_16x16_backbone.image_16x16_kernel_5x5_backbone.Image_16x16_5x5_avg"
+    directories_dir: "model_epochs_200/model_16x16_kernel_5x5_avg"
+    model_path: "model.pth"
+    history_file: "training_history.csv"
+    num_epochs: 200
+    batch_size: 256
+    learning_rate: 0.001
+    input_size: [16, 16]
+    channels: 3
+    target_layers:
+      - "conv1"
+      - "conv2"
+      - "conv3"
+      - "conv4"
+
+
+  - name: model_32x32_kernel_3x3_max
+    backbone: "executable_code.model_network.model_32x32_backbone.image_32x32_kernel_3x3_backbone.Image_32x32_3x3_max"
+    directories_dir: "model_epochs_200/model_32x32_kernel_3x3_max"
+    model_path: "model.pth"
+    history_file: "training_history.csv"
+    num_epochs: 200
+    batch_size: 256
+    learning_rate: 0.001
+    input_size: [32, 32]
+    channels: 3
+    target_layers:
+      - "conv1"
+      - "conv2"
+      - "conv3"
+      - "conv4"
+
+
+  - name: model_32x32_kernel_3x3_avg
+    backbone: "executable_code.model_network.model_32x32_backbone.image_32x32_kernel_3x3_backbone.Image_32x32_3x3_avg"
+    directories_dir: "model_epochs_200/model_32x32_kernel_3x3_avg"
+    model_path: "model.pth"
+    history_file: "training_history.csv"
+    num_epochs: 200
+    batch_size: 256
+    learning_rate: 0.001
+    input_size: [32, 32]
+    channels: 3
+    target_layers:
+      - "conv1"
+      - "conv2"
+      - "conv3"
+      - "conv4"
+
+
+  - name: model_32x32_kernel_5x5_max
+    backbone: "executable_code.model_network.model_32x32_backbone.image_32x32_kernel_5x5_backbone.Image_32x32_5x5_max"
+    directories_dir: "model_epochs_200/model_32x32_kernel_5x5_max"
+    model_path: "model.pth"
+    history_file: "training_history.csv"
+    num_epochs: 200
+    batch_size: 256
+    learning_rate: 0.001
+    input_size: [32, 32]
+    channels: 3
+    target_layers:
+      - "conv1"
+      - "conv2"
+      - "conv3"
+      - "conv4"
+
+
+  - name: model_32x32_kernel_5x5_avg
+    backbone: "executable_code.model_network.model_32x32_backbone.image_32x32_kernel_5x5_backbone.Image_32x32_5x5_avg"
+    directories_dir: "model_epochs_200/model_32x32_kernel_5x5_avg"
+    model_path: "model.pth"
+    history_file: "training_history.csv"
+    num_epochs: 200
+    batch_size: 256
+    learning_rate: 0.001
+    input_size: [32, 32]
+    channels: 3
+    target_layers:
+      - "conv1"
+      - "conv2"
+      - "conv3"
+      - "conv4"
+
+  - name: model_64x64_kernel_3x3_max
+    backbone: "executable_code.model_network.model_64x64_backbone.image_64x64_kernel_3x3_backbone.Image_64x64_3x3_max"
+    directories_dir: "model_epochs_200/model_64x64_kernel_3x3_max"
+    model_path: "model.pth"
+    history_file: "training_history.csv"
+    num_epochs: 200
+    batch_size: 256
+    learning_rate: 0.001
+    input_size: [64, 64]
+    channels: 3
+    target_layers:
+      - "conv1"
+      - "conv2"
+      - "conv3"
+      - "conv4"
+
+
+  - name: model_64x64_kernel_3x3_avg
+    backbone: "executable_code.model_network.model_64x64_backbone.image_64x64_kernel_3x3_backbone.Image_64x64_3x3_avg"
+    directories_dir: "model_epochs_200/model_64x64_kernel_3x3_avg"
+    model_path: "model.pth"
+    history_file: "training_history.csv"
+    num_epochs: 200
+    batch_size: 256
+    learning_rate: 0.001
+    input_size: [64, 64]
+    channels: 3
+    target_layers:
+      - "conv1"
+      - "conv2"
+      - "conv3"
+      - "conv4"
+
+
+  - name: model_64x64_kernel_5x5_max
+    backbone: "executable_code.model_network.model_64x64_backbone.image_64x64_kernel_5x5_backbone.Image_64x64_5x5_max"
+    directories_dir: "model_epochs_200/model_64x64_kernel_5x5_max"
+    model_path: "model.pth"
+    history_file: "training_history.csv"
+    num_epochs: 200
+    batch_size: 256
+    learning_rate: 0.001
+    input_size: [64, 64]
+    channels: 3
+    target_layers:
+      - "conv1"
+      - "conv2"
+      - "conv3"
+      - "conv4"
+
+
+  - name: model_64x64_kernel_5x5_avg
+    backbone: "executable_code.model_network.model_64x64_backbone.image_64x64_kernel_5x5_backbone.Image_64x64_5x5_avg"
+    directories_dir: "model_epochs_200/model_64x64_kernel_5x5_avg"
+    model_path: "model.pth"
+    history_file: "training_history.csv"
+    num_epochs: 200
+    batch_size: 256
+    learning_rate: 0.001
+    input_size: [64, 64]
+    channels: 3
+    target_layers:
+      - "conv1"
+      - "conv2"
+      - "conv3"
+      - "conv4"
+
+
+#  - name: model_128x128_kernel_3x3_max
+#    backbone: "executable_code.model_network.model_128x128_backbone.image_128x128_kernel_3x3_backbone.Image_128x128_3x3_max"
+#    directories_dir: "model_epochs_200/model_128x128_kernel_3x3_max"
+#    model_path: "model.pth"
+#    history_file: "training_history.csv"
+#    num_epochs: 200
+#    batch_size: 256
+#    learning_rate: 0.001
+#    input_size: [128, 128]
+#    channels: 3
+#    target_layers:
+#      - "conv1"
+#      - "conv2"
+#      - "conv3"
+#      - "conv4"
+#
+#
+#  - name: model_128x128_kernel_3x3_avg
+#    backbone: "executable_code.model_network.model_128x128_backbone.image_128x128_kernel_3x3_backbone.Image_128x128_3x3_avg"
+#    directories_dir: "model_epochs_200/model_128x128_kernel_3x3_avg"
+#    model_path: "model.pth"
+#    history_file: "training_history.csv"
+#    num_epochs: 200
+#    batch_size: 256
+#    learning_rate: 0.001
+#    input_size: [128, 128]
+#    channels: 3
+#    target_layers:
+#      - "conv1"
+#      - "conv2"
+#      - "conv3"
+#      - "conv4"
+#
+#
+#  - name: model_128x128_kernel_5x5_max
+#    backbone: "executable_code.model_network.model_128x128_backbone.image_128x128_kernel_5x5_backbone.Image_128x128_5x5_max"
+#    directories_dir: "model_epochs_200/model_128x128_kernel_5x5_max"
+#    model_path: "model.pth"
+#    history_file: "training_history.csv"
+#    num_epochs: 200
+#    batch_size: 256
+#    learning_rate: 0.001
+#    input_size: [128, 128]
+#    channels: 3
+#    target_layers:
+#      - "conv1"
+#      - "conv2"
+#      - "conv3"
+#      - "conv4"
+#
+#
+#  - name: model_128x128_kernel_5x5_avg
+#    backbone: "executable_code.model_network.model_128x128_backbone.image_128x128_kernel_5x5_backbone.Image_128x128_5x5_avg"
+#    directories_dir: "model_epochs_200/model_128x128_kernel_5x5_avg"
+#    model_path: "model.pth"
+#    history_file: "training_history.csv"
+#    num_epochs: 200
+#    batch_size: 256
+#    learning_rate: 0.001
+#    input_size: [128, 128]
+#    channels: 3
+#    target_layers:
+#      - "conv1"
+#      - "conv2"
+#      - "conv3"
+#      - "conv4"
+
